@@ -1,0 +1,117 @@
+
+[
+    {
+        "domain": "Education",
+        "parops": 
+     [
+      {
+          "head" : "Computer Development Techniques / OFPPT 2020/2022",
+          "p" : "I have learned in this two years python and C# and algorithms and javascript , jquery and html and css , next to  ASP.net Framework for web programming and ado.net for the web programming and Entity Framework and ado.net and some mangement skills"
+      },
+      {
+        "head" : "2022",
+        "p" : "I have learned in this two years python and C# and algorithms and javascript , jquery and html and css , next to  ASP.net Framework for web programming and ado.net for the web programming and Entity Framework and ado.net and some mangement skills"
+      },
+      {
+        "head" : "2022",
+        "p" : "I have learned in this two years python and C# and algorithms and javascript , jquery and html and css , next to  ASP.net Framework for web programming and ado.net for the web programming and Entity Framework and ado.net and some mangement skills"
+      },
+      {
+        "head" : "Physical Sciences / high school ibn khaldoun bouznika 2022",
+        "p" : "learn that require knowledge in science"
+        }
+     ]
+    },{
+        "domain":"Skills",
+        "parops":[
+            {
+              "head" : "ASP.net Core",
+              "p" : ""
+            },
+            {
+                "head" : "ASP.Net Framwork",
+                "p" : "I am able to create a web app that can handle many users with system of log in and creating accounts with verification of that email and phone number / create API / get or send data with links /controle and verify the files that user can upload to the server/consume APi and more ....  , with writing a readable and  maintainable code and already  optimized , with access ot data base (Sql Server) with and without using EntityFramwork and using the builed MVC and Webform ."
+            }
+            
+        ]
+    },
+    {
+        "domain": "Tools",
+        "parops":  
+        [
+         
+           {
+               "head" : "Adobe Photoshop",
+               "p" : "I can use photoshop to create logos SVG , website images for the content , and I can modify an image using it."
+               }
+     ]
+    },
+    {
+        "domain": "Project",
+        "parops": 
+     [
+      {
+          "head" : "Computer Development Techniques / OFPPT",
+          "p" : "lorem"
+      },
+      {
+        "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+        "p" : "lorem"
+        },
+        {
+            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+            "p" : "lorem"
+            }
+        ,{
+            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+            "p" : "lorem"
+            }
+     ]
+    },
+    {
+        "domain": "Experience",
+        "parops": 
+     [
+      {
+          "head" : "Computer Development Techniques / OFPPT",
+          "p" : "lorem"
+      },
+      {
+        "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+        "p" : "lorem"
+        },
+        {
+            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+            "p" : "lorem"
+            }
+        ,{
+            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+            "p" : "lorem"
+            }
+     ]
+    },
+    {
+        "domain": "serverces",
+        "parops": 
+     [
+      {
+          "head" : "Computer Development Techniques / OFPPT",
+          "p" : "lorem"
+      },
+      {
+        "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+        "p" : "lorem"
+        },
+        {
+            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+            "p" : "lorem"
+            }
+        ,{
+            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
+            "p" : "lorem"
+            }
+     ]
+    }
+
+    
+]
