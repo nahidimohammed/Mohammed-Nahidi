@@ -1,3 +1,4 @@
+
 var container = document.getElementById('containerContact');
 //var tit = document.getElementsById("hiding");
 
@@ -101,19 +102,7 @@ document.addEventListener('click', e => {
 
 
 
-sendmail = ()=> {
-    Email.send({
-        Host: "smtp.elasticemail.com" ,
-        Username : "simonahidi1@gmail.com",
-        Password : "C98F4F26F018F965E1DB865565D69B5DAFB2",
-        To : 'nahidimohammed@gmail.com',
-        From : "simonahidi1@gmail.com",
-        Subject : TextSubject.value ,
-        Body : "Hello Mohammed this is "+TextEmail.value+"<br />"+TextBody.value 
-    }).then(
-      message => alert("your message is send seccusfelly , please make sure the you put your email where I can text you back")
-    )
-};
+
 
 copynumber = () => {
     navigator.clipboard.writeText("+212 700564216");

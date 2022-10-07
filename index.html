@@ -133,7 +133,7 @@ when I was 17 years old I get my baccalaureate (science phisique) at the school 
             <textarea id="TextBody" ></textarea>
             </div>
             <div>
-                <button type="submit"onsubmit="sendmail()">
+                <button type="submit" onclick="sendmail()">
                     Send
                 </button>
             </div>
@@ -141,5 +141,20 @@ when I was 17 years old I get my baccalaureate (science phisique) at the school 
     </div>
 </body>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    sendmail = ()=> {
+    Email.send({
+        Host: "smtp.elasticemail.com" ,
+        Username : "simonahidi1@gmail.com",
+        Password : "D4530AC7ABE9B237A230F200277B1FD8A7C2",
+        To : 'simosisse750@gmail.com',
+        From : "simonahidi1@gmail.com",
+        Subject : "hello" ,
+        Body : "Hello Mohammed this is " 
+    }).then(
+      message => alert(message)
+    )
+};
+</script>
 <script src="./Script/Scritp.js"></script>
 </html>
