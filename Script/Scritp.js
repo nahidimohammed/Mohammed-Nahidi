@@ -5,11 +5,12 @@ window.addEventListener('scroll', ()=>{
     //alert(window.getComputedStyle(container).top);
         var containerTop = container.getBoundingClientRect().top;
         var windowheight = window.innerHeight ;
-        var revealpoint = 110;
+        var revealpoint = 150;
         if (containerTop == 0 ){
                 document.getElementById('hiding1').style.display = "none";
                 document.getElementById('hiding2').style.display = "none";
                 document.getElementById('hiding3').style.display = "none";
+                
             
         }
         else if (containerTop > 100){
@@ -27,7 +28,7 @@ displaytheItem = (name) => {
             
         })
         .then((results) => {
-            var quiry = "<button onclick='hidetheItem()'>Close</button> <div> <div>";
+            var quiry = "<button type='button'  onclick='hidetheItem()'>Close</button> <div> <div>";
             for(let result of results){
                 if (result.domain == name ){
                     for (let item of result.parops){
@@ -38,6 +39,7 @@ displaytheItem = (name) => {
             ItemsContent.innerHTML =  quiry+"</div></div>";
         });
     ItemsContent.style.display ="block";
+    disableScroll();
     setTimeout(()=>{
         ItemsContent.style.transform =" translateY(00px)";
 
@@ -45,10 +47,11 @@ displaytheItem = (name) => {
 }
 
 hidetheItem = () => {
-    ItemsContent.style.transform =" translateY(700px)";
+    ItemsContent.style.transform =" translateY(1600px)";
+    enableScroll();
     setTimeout(()=>{
     ItemsContent.style.display ="none";
-    },1000)
+    },500)
 }
 /*
 document.addEventListener('click', e => {
@@ -60,3 +63,59 @@ document.addEventListener('click', e => {
     }
   }, {passive: true})
   */
+
+
+ function disableScroll() {
+    // Get the current page scroll position
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+    // if any scroll is attempted, set this to the previous value
+    window.onscroll = function() {
+        window.scrollTo(0, scrollTop);
+    };
+    
+    }
+
+    function enableScroll() {
+    window.onscroll = function() {};
+    }
+ 
+
+    hidethecotact = () => {
+        document.getElementById("CotactForm").style.transform = "translate(-50%, 100%)";
+        //setTimeout(() => {
+        //document.getElementById("CotactForm").style.display = "none";
+        //}, 1000);
+        enableScroll();
+
+    }
+    ShowCotact = () => {
+        //document.getElementById("CotactForm").style.display = "inline-block";
+        //setTimeout(() => {
+            document.getElementById("CotactForm").style.transform = "translate(-50%, -50%)";
+        //}, 10);        
+
+        disableScroll();
+    }
+
+
+
+
+sendmail = ()=> {
+    Email.send({
+        Host: "smtp.elasticemail.com" ,
+        Username : "simonahidi1@gmail.com",
+        Password : "C98F4F26F018F965E1DB865565D69B5DAFB2",
+        To : 'nahidimohammed@gmail.com',
+        From : "simonahidi1@gmail.com",
+        Subject : TextSubject.value ,
+        Body : "Hello Mohammed this is "+TextEmail.value+"<br />"+TextBody.value 
+    }).then(
+      message => alert("your message is send seccusfelly , please make sure the you put your email where I can text you back")
+    )
+};
+
+copynumber = () => {
+    navigator.clipboard.writeText("+212 700564216");
+    alert("Number is copyed +212 700564216");
+}

@@ -17,6 +17,7 @@ html{
     position: absolute;
     border: none;
 
+
 }
 
 body {
@@ -28,6 +29,7 @@ body {
     color: #E7F6F2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
+
 }
 
 .header {
@@ -211,13 +213,22 @@ padding-top: 20px;
         display: block;
         margin-inline: auto;
     }
+    
+    
 }
 @media only screen and (min-width: 1200px){
     .whitespaec {
         grid-template-columns: repeat(auto-fit   , minmax(400px , 1fr));
     }
+    
+    #ItemsContent > div > div > div > p {
+        width:100% ;
+        display: block;
+    }
 }
-
+@media only screen and (max-width:1200px){
+    
+}
 .items_relative {
     padding: 20px;
     transition-duration: 1s;
@@ -298,7 +309,6 @@ padding-top: 20px;
   .hiding {
       display: block;
   }
-
 #ItemsContent{
     display: none;
     position: fixed;
@@ -310,8 +320,11 @@ padding-top: 20px;
     z-index: 4;
     height:100%;
     border-radius: 10px 10px 0px 0px ;
-    transition: transform 1s;
+    transition: transform 0.5s;
     transform: translateY(500px);
+}
+#ItemsContent ::-webkit-scrollbar{
+    display: none;
 }
 #ItemsContent > button {
     float: right;
@@ -343,6 +356,9 @@ padding-top: 20px;
     padding-top: 0px;
     padding-bottom: 50px;
     overflow-y: scroll;
+    overscroll-behavior-y: contain;
+
+    
 }
 #ItemsContent > div > div {
     border-left: #E7F6F2 10px solid;
@@ -405,7 +421,83 @@ padding-top: 20px;
 #ItemsContent > div > div > div > p {
     text-align: justify;
     display: inline-block;
-    max-width: 600px;
+    max-width: 800px;
     width: fit-content;
     min-width: 200px;
+}
+#CotactForm {
+    border-radius: 10px 10px 0px 0px;
+    height: 80%;
+    max-width: 1000px;
+    min-width: 200px;
+    width: 80%;
+    background-color: #395b64;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 100%);
+    z-index: 5;
+    height: fit-content;
+    padding: 20px;
+    display: inline-block;
+    transition: all 1s;
+}
+#CotactForm > form {
+    margin: 10px auto;
+    width: 100%;
+    display: block;
+}
+#CotactForm > form > div {
+    padding:10px 20px;
+    width: 80%;
+    position: relative;
+    margin: 10px auto;
+}
+#CotactForm > form > div > label {
+    position: absolute;
+    top: 10px;
+    transition: top 0.5s;
+}
+#CotactForm > form > div > input:not(:placeholder-shown) + label ,
+#CotactForm > form > div > input:focus + label {
+    top: -10px;
+}
+#CotactForm > button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: #E7F6F2;
+    font-size:15px;
+}
+#CotactForm > form > div > input {
+    outline: none;
+    border: 0px;
+    width: 100%;
+    border-bottom: 2px solid #717475;
+    background-color: transparent;
+    caret-color: #717475;
+}
+#CotactForm > form > div > button{
+    width: 100%;
+    background-color: #2C3333;
+    border: none;
+    color: #E7F6F2;
+    padding: 10px;
+}
+#CotactForm > form > div > textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.ContactSide{
+    position: fixed;
+    right: 0px;
+    top:50%;
+    transform: rotateY(-50%);
+    background-color: #717475;
+    height: 50px;
+    padding: 10px;
+    display: grid;
+    z-index: 4;
 }

@@ -32,7 +32,7 @@
                 <h1 id="hiding2">GitHub</h1>
 
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/simonahidi1/">
                 <i class="fa-brands fa-instagram"></i>
                 <h1 id="hiding3">Instagram</h1>
             </a>
@@ -105,43 +105,41 @@ when I was 17 years old I get my baccalaureate (science phisique) at the school 
     </div>
     <div id="ItemsContent">
         <button onclick="hidetheItem()">Close</button>
-        <div>
+    </div>
+
+
+
+
+    <div class="ContactSide">
+        <i class="fa-solid fa-envelope" onclick="ShowCotact()"></i>
+        <i class="fa-solid fa-phone" onclick="copynumber()"></i>
+    </div>
+
+
+
+
+    <div id="CotactForm">
+        <button type="button" onclick="hidethecotact()">X</button>
+        <form method="POST">
             <div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim quidem dolore quam pariatur quos ea animi sint, quisquam tempora error exercitationem doloribus quas voluptas optio assumenda vero mollitia eos hic accusantium, sed minus, fuga rem nisi! Reprehenderit nihil velit nam distinctio veniam, facere tenetur possimus eveniet sint consequatur commodi.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
-                <div>
-                    <h1>header</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, sunt.</p>
-                </div>
+                <input type="email" placeholder=" " id="TextEmail" required>
+                <label>Email</label>
             </div>
-        </div>
+            <div>
+                <input type="text" placeholder=" " required="true" id="TextSubject">
+                <label>Subject</label>
+            </div>
+            <div>
+            <textarea id="TextBody" ></textarea>
+            </div>
+            <div>
+                <button type="submit"onsubmit="sendmail()">
+                    Send
+                </button>
+            </div>
+        </form>
     </div>
 </body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./Script/Scritp.js"></script>
 </html>
