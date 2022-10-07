@@ -25,8 +25,20 @@
         "domain":"Skills",
         "parops":[
             {
+                "head":"HTML",
+                "p":"I confirm that I know all the tags and informations needed and more about HTML that provide me to be able to create a good websites without over coding."
+            },
+            {
+                "head" : "CSS",
+                "p" : "I can create a responsive web pages with animations and modern design, with high experience using css (more than 2 years).and one of my experiences is this static web site that you are browsing now that is responsice to all types of devices and you can see more of my abilities in css in my projects secssion ."
+              },
+            {
+                "head" : "JavaScript",
+                "p" : "I have all the knowledge needed to create an create a web app to consume an API , manipulate date , consume webmethods , manipulate the DOM and more ... , you can see my JavaScript skills from the website you are now or in my projects secssion."
+              },
+            {
               "head" : "ASP.net Core",
-              "p" : ""
+              "p" : "I am able to create a web app that can handle many users with system of log in and creating accounts with verification of that email and phone number / create API / get or send data with links /controle and verify the files that user can upload to the server/consume APi and more .... , with writing a readable and maintainable code and already optimized , with access ot data base (Sql Server) with and without using EntityFramwork and using the builed MVC ."
             },
             {
                 "head" : "ASP.Net Framwork",
@@ -39,7 +51,34 @@
         "domain": "Tools",
         "parops":  
         [
-         
+            {
+                "head":"Google Analytics",
+                "p":"I am certified in Google Analytics from google and it is a platform that collects data from your websites and apps to create reports that provide insights into your business."
+            },
+            {
+                "head" : "Visual Studio",
+                "p" : "I am using Visual Studio Code to code my project but I prefer to use it for dynamic website which are using backend like asp.net Framwork or asp.net core."
+                },
+            {
+                "head" : "Visual Studio",
+                "p" : "I am using Visual Studio Code to code my project but I prefer to use it for dynamic website which are using backend like asp.net Framwork or asp.net core."
+                },
+            {
+                "head" : "Visual Studio Code",
+                "p" : "I am using Visual Studio Code to code my project but I prefer to use it for static website which are not using backend."
+                },
+            {
+                "head" : "GitHub",
+                "p" : "I am using GitHub to store and manage my code, as well as track and control changes to my code and share my code with others."
+                },
+            {
+                "head" : "SQL Server Management Studio (SSMS)",
+                "p" : "I am using ssms to create databases and change theme ."
+                },
+            {
+                "head" : "Adobe Promiere Pro",
+                "p" : "I can use Adobe Pro to video editing, create smooth videos with music."
+                },
            {
                "head" : "Adobe Photoshop",
                "p" : "I can use photoshop to create logos SVG , website images for the content , and I can modify an image using it."
@@ -50,44 +89,28 @@
         "domain": "Project",
         "parops": 
      [
-      {
-          "head" : "Computer Development Techniques / OFPPT",
-          "p" : "lorem"
-      },
-      {
-        "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-        "p" : "lorem"
-        },
         {
-            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-            "p" : "lorem"
-            }
-        ,{
-            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-            "p" : "lorem"
-            }
+            "head":"bluenorthmechanical",
+            "p":"bluenorthmechanical is one of the projects that I have been working on and you can read more about it in my experience section or you can visit the website in the link below.  <a style='color:white; ' href='http://bluenorthmechanical.com/'>http://bluenorthmechanical.com/<a>"
+        }
      ]
     },
     {
         "domain": "Experience",
         "parops": 
      [
+        {
+            "head" : "bluenorthmechanical",
+            "p" : "I have created the website called bluenorthmechanical for the canadian company (bluenorthmechnical) in the year 2022. bluenorthmechanical mission is to provide the customers comfort in their homes. there technicians install, maintain and repair indoor air quality systems. You can visite it with the link below. <a style='color:white; ' href='http://bluenorthmechanical.com/'>http://bluenorthmechanical.com/<a>"
+        },
       {
-          "head" : "Computer Development Techniques / OFPPT",
-          "p" : "lorem"
+          "head" : "S4P GARDIENNAGE",
+          "p" : "I have one month of experience with the company called S4P Gardiennage in Mohammadia city in morocco from 04/01/2022 to 04/30/2022."
       },
       {
-        "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-        "p" : "lorem"
-        },
-        {
-            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-            "p" : "lorem"
-            }
-        ,{
-            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-            "p" : "lorem"
-            }
+        "head" : "Province Benslimane",
+        "p" : "I have one month of experience in Province Benslimane Gardiennage in Benslimane city in morocco from 04/01/2022 to 04/30/2022 in using the asp.net Framework technology."
+        }
      ]
     },
     {
@@ -95,21 +118,17 @@
         "parops": 
      [
       {
-          "head" : "Computer Development Techniques / OFPPT",
-          "p" : "lorem"
+          "head" : "Open for service",
+          "p" : "for now I am open for service."
       },
       {
-        "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-        "p" : "lorem"
-        },
-        {
-            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-            "p" : "lorem"
-            }
+        "head" : "Static website creating",
+        "p" : "I can create a static website using html and css and js for a good prix with a high quality , with provided host and costemer suport and domain name so you dont have to worry about any of that .<br />if you are interested you can contact me in my email address (nahidimohammed@gmail.com) or in my phone number (+212 700564216)."
+        }
         ,{
-            "head" : "High School degree in Physical Sciences / high school ibn khaldoun bouznika",
-            "p" : "lorem"
-            }
+            "head":"creating a dynamic website",
+            "p":"I can create a dynamic website using html and css and js for a good prix with a high quality , with provided host and costemer suport and domain name so you dont have to worry about any of that . <br />dynamic web site is a web page whose construction is controlled by an application server processing server-side scripts. In server-side scripting, parameters determine how the assembly of every new web page proceeds, including the setting up of more client-side processing.<br />if you are interested you can contact me in my email address (nahidimohammed@gmail.com) or in my phone number (+212 700564216)."
+        }
      ]
     }
 
