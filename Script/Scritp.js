@@ -83,7 +83,7 @@ document.addEventListener('click', e => {
  
 
     hidethecotact = () => {
-        document.getElementById("CotactForm").style.transform = "translate(-50%, 100%)";
+        document.getElementById("CotactForm").style.transform = "translate(-50%, 150%)";
         //setTimeout(() => {
         //document.getElementById("CotactForm").style.display = "none";
         //}, 1000);
@@ -99,12 +99,28 @@ document.addEventListener('click', e => {
         disableScroll();
     }
 
+    
 
 
 
 
+    sendmail = ()=> {
+        //Subject : TextSubject.value  ,
+           // Body : "hello Mohammed this is "+TextEmail.value+ " talking <br />" + TextBody.value
+        Email.send({
+            Host : "smtp..com",
+            Username : "",
+            Password : "",
+            To : '',
+            From : "",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+    };
 
 copynumber = () => {
-    navigator.clipboard.writeText("+212 700564216");
-    alert("Number is copyed +212 700564216");
-}
+        navigator.clipboard.writeText("+212 700564216");
+        alert("Number is copyed +212 700564216");
+    }

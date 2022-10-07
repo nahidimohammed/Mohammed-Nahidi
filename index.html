@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-
+<script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -120,7 +120,7 @@ when I was 17 years old I get my baccalaureate (science phisique) at the school 
 
     <div id="CotactForm">
         <button type="button" onclick="hidethecotact()">X</button>
-        <form method="POST">
+        <form >
             <div>
                 <input type="email" placeholder=" " id="TextEmail" required>
                 <label>Email</label>
@@ -133,28 +133,12 @@ when I was 17 years old I get my baccalaureate (science phisique) at the school 
             <textarea id="TextBody" ></textarea>
             </div>
             <div>
-                <button type="submit" onclick="sendmail()">
+                <button onclick="alert('sorry this feater will be available soon your can contact me in my acount nahidimohammed@gmail.com')">
                     Send
                 </button>
             </div>
         </form>
     </div>
 </body>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    sendmail = ()=> {
-    Email.send({
-        Host: "smtp.elasticemail.com" ,
-        Username : "simonahidi1@gmail.com",
-        Password : "D4530AC7ABE9B237A230F200277B1FD8A7C2",
-        To : 'simosisse750@gmail.com',
-        From : "simonahidi1@gmail.com",
-        Subject : "hello" ,
-        Body : "Hello Mohammed this is " 
-    }).then(
-      message => alert(message)
-    )
-};
-</script>
 <script src="./Script/Scritp.js"></script>
 </html>

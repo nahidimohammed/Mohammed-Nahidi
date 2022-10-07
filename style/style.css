@@ -426,7 +426,7 @@ padding-top: 20px;
     min-width: 200px;
 }
 #CotactForm {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px ;
     height: 80%;
     max-width: 1000px;
     min-width: 200px;
@@ -435,7 +435,7 @@ padding-top: 20px;
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 150%);
     z-index: 5;
     height: fit-content;
     padding: 20px;
