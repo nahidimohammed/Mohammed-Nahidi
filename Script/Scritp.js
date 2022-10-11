@@ -84,17 +84,17 @@ document.addEventListener('click', e => {
 
     hidethecotact = () => {
         document.getElementById("CotactForm").style.transform = "translate(-50%, 150%)";
-        //setTimeout(() => {
-        //document.getElementById("CotactForm").style.display = "none";
-        //}, 1000);
+        setTimeout(() => {
+        document.getElementById("CotactForm").style.display = "none";
+        }, 1000);
         enableScroll();
 
     }
     ShowCotact = () => {
-        //document.getElementById("CotactForm").style.display = "inline-block";
-        //setTimeout(() => {
+        document.getElementById("CotactForm").style.display = "inline-block";
+        setTimeout(() => {
             document.getElementById("CotactForm").style.transform = "translate(-50%, -50%)";
-        //}, 10);        
+        }, 10);        
 
         disableScroll();
     }
