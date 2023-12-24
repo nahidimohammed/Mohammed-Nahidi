@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
 }
 
-.header {
+header {
     background-color: #2C3333;
     height: 100%;
     display: flex;
@@ -39,20 +39,18 @@ body {
     margin-bottom: 90px;
     margin-inline: auto;
 }
-.header > div {
+header > div {
     width: fit-content;
     margin-left: 20px;
 }
-.header > div > h1 {
+header > div > h1 {
     font-size: 4vw;
 }
-.header > div > h1::after{
+header > div > h1::after{
     content: 'Nahidi_Mohammed';
     animation: example 2s;
-    /*animation-duration: 3s;*/
     animation-play-state: inherit;
     display: inline-block;
-    /*animation-iteration-count:infinite;*/
     animation-timing-function: inherit;
     transform: content 0.5ss;
 }
@@ -113,10 +111,10 @@ body {
 
     }
   }
-.header > div > span {
+header > div > span {
     font-size: 2.5vw;
 }
-.header > img {
+header > img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -194,20 +192,20 @@ padding-top: 20px;
     }
 }
 @media only screen and (max-width: 500px){
-    .header{
+    header{
         margin-bottom: 90px;
     
         }
-    .header{
+    header{
         display: block;
     }
-    .header > div > h1 {
+    header > div > h1 {
         font-size: 25px;
     }
-    .header > div > span {
+    header > div > span {
         font-size: 15px;
     }
-    .header > img {
+    header > img {
         display: block;
         margin-inline: auto;
     }
@@ -288,10 +286,10 @@ padding-top: 20px;
     .Contact > a > i {
         font-size: 35px;
     }
-    .header > div > h1 {
+    header > div > h1 {
         font-size: 40px;
     }
-    .header > div > span {
+    header > div > span {
         font-size: 25px;
     }
   }
@@ -350,18 +348,7 @@ padding-top: 20px;
     position: relative;
     
 }
-/*
-#ItemsContent > div::before{
-    border-radius: 10px;
-    position: fixed;
-    content: '';
-    top: 0px;
-    height: max-content;
-    width: 10px;
-    display: inline-block;
-    background-color: #E7F6F2;
 
-}*/
 #ItemsContent > div > div >div {
     padding-top: 0px;
     padding:10px;
@@ -383,21 +370,7 @@ padding-top: 20px;
     width: 20px;
     background-color: #E7F6F2;
 }
-/*
-#ItemsContent > div > div >div::after{
-    content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px;
-    border-color: transparent #2c3333 transparent transparent;
-    position: absolute;
-    display: block;
-    left: 0px;
-    z-index: 8;
 
-}
-*/
 #ItemsContent > div > div > div > h1 {
     margin: 0px;
     padding:0px;
