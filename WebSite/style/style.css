@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
 }
 
-header {
+.header {
     background-color: #2C3333;
     height: 100%;
     display: flex;
@@ -39,14 +39,14 @@ header {
     margin-bottom: 90px;
     margin-inline: auto;
 }
-header > div {
+.header > div {
     width: fit-content;
     margin-left: 20px;
 }
-header > div > h1 {
+.header > div > h1 {
     font-size: 4vw;
 }
-header > div > h1::after{
+.header > div > h1::after{
     content: 'Nahidi_Mohammed';
     animation: example 2s;
     animation-play-state: inherit;
@@ -111,10 +111,10 @@ header > div > h1::after{
 
     }
   }
-header > div > span {
+.header > div > span {
     font-size: 2.5vw;
 }
-header > img {
+.header > img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -192,20 +192,20 @@ padding-top: 20px;
     }
 }
 @media only screen and (max-width: 500px){
-    header{
+    .header{
         margin-bottom: 90px;
     
         }
-    header{
+    .header{
         display: block;
     }
-    header > div > h1 {
+    .header > div > h1 {
         font-size: 25px;
     }
-    header > div > span {
+    .header > div > span {
         font-size: 15px;
     }
-    header > img {
+    .header > img {
         display: block;
         margin-inline: auto;
     }
@@ -286,10 +286,10 @@ padding-top: 20px;
     .Contact > a > i {
         font-size: 35px;
     }
-    header > div > h1 {
+    .header > div > h1 {
         font-size: 40px;
     }
-    header > div > span {
+    .header > div > span {
         font-size: 25px;
     }
   }
